@@ -4,7 +4,7 @@ class Book:
         self.author = author
 
     def show_info(self):
-        return f"Book: {self.name} | Author: {self.author}"
+        return f"Book Name: {self.name} | Author: {self.author}"
 
 class EBook(Book):
     def __init__(self, name, author, file_size):
